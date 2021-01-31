@@ -37,10 +37,13 @@ p.subheader {
 }
 
 
-img {
-
-  padding: 3pt;
-
+.banner {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(https://i.imgur.com/wfVrNgN.png) no-repeat;
+  width: 80%; /* Width of new image */
+  padding-left: 80%; /* Equal to width of new image */
 }
 
 
