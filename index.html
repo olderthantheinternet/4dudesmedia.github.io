@@ -163,24 +163,23 @@
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       <div class="container">
-
         <ul class="nav nav-tabs row d-flex">
           <li class="nav-item col-3" data-aos="zoom-in">
-            <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+            <a class="nav-link" data-toggle="tab" href="#tab-1">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">The Content</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in">
+            <a class="nav-link active show" data-toggle="tab" href="#tab-2" data-aos-delay="100">
               <i class="ri-gps-line"></i>
               <h4 class="d-none d-lg-block">Storage Servers</h4>
             </a>
           </li>
-          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
-            <a class="nav-link" data-toggle="tab" href="#tab-2">
-              <i class="ri-body-scan-line"></i>
-              <h4 class="d-none d-lg-block">The Streaming Box</h4>
-            </a>
-          </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
             <a class="nav-link" data-toggle="tab" href="#tab-3">
-              <i class="ri-sun-line"></i>
-              <h4 class="d-none d-lg-block">The Content</h4>
+              <i class="ri-body-scan-line"></i>
+              <h4 class="d-none d-lg-block">The Streaming Box</h4>
             </a>
           </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
@@ -188,60 +187,10 @@
               <i class="ri-store-line"></i>
               <h4 class="d-none d-lg-block">The Community</h4>
             </a>
-          </li>
+          </li>          
         </ul>
-
         <div class="tab-content" data-aos="fade-up">
-          <div class="tab-pane active show" id="tab-1">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Storage Servers</h3>
-                <p class="font-italic">
-                  Our Storage Server Array consists of 24 SuperMicro 4RU servers.<br />  
-                  The 24 servers are connected to 2 load balancer.
-                  The specs for each of the 24 storage servers is as follows:
-                </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> SuperMicro 4U 45 Bay 847E16-RJBOD1 3.5" SATA/SAS JBOD Chassis </li>
-                  <li><i class="ri-check-double-line"></i> 2x E5-2683 V4, 128GB RAM</li>
-                  <li><i class="ri-check-double-line"></i> AOC-S3008L-L8e SAS controller(s)</li>
-                  <li><i class="ri-check-double-line"></i> 100GB Network interface</li>
-                  <li><i class="ri-check-double-line"></i> 16 x 14TB Hard Disk Drives</li>
-                </ul>
-                <p>
-                In this configuration you are provided with redundant error free storage using CEPH technology
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/hardware.png" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tab-2">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>The Streaming Box</h3>
-                <p>
-                  Your buffer free streaming is provided by the robust combination of the SuperMicro MB and the versatile Intel i3 processor 
-                </p>
-                <p class="font-italic">
-                  Using integrated Intel UHD Graphics 630 chipset, the i3 processor provides the same transcoding ability of vastly pricer CPUs.
-                </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> Supermicro 512L-200B 1U chassis</li>
-                  <li><i class="ri-check-double-line"></i> AsRock Rack W480D4U mATX Server Motherboard Intel LGA 1200</li>
-                  <li><i class="ri-check-double-line"></i> Intel Core i3-10100 Comet Lake Quad-Core 3.6 Ghz LGA 1200 65W</li>
-                  <li><i class="ri-check-double-line"></i> 32GB DDR4 2666 ECC RAM</li>
-                  <li><i class="ri-check-double-line"></i> Western Digial BLUE 1TB nvme SN550</li>
-                  <li><i class="ri-check-double-line"></i> 10GB Ethernet</li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/streamer.png" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tab-3">
+          <div class="tab-pane" id="tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>The Content: <i>why we are all here to begin with</i></h3>
@@ -272,6 +221,55 @@
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
                 <img src="assets/img/content.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane active show" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Storage Servers</h3>
+                <p class="font-italic">
+                  Our Storage Server Array consists of 24 SuperMicro 4RU servers.<br />  
+                  The 24 servers are connected to 2 load balancer.
+                  The specs for each of the 24 storage servers is as follows:
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> SuperMicro 4U 45 Bay 847E16-RJBOD1 3.5" SATA/SAS JBOD Chassis </li>
+                  <li><i class="ri-check-double-line"></i> 2x E5-2683 V4, 128GB RAM</li>
+                  <li><i class="ri-check-double-line"></i> AOC-S3008L-L8e SAS controller(s)</li>
+                  <li><i class="ri-check-double-line"></i> 100GB Network interface</li>
+                  <li><i class="ri-check-double-line"></i> 16 x 14TB Hard Disk Drives</li>
+                </ul>
+                <p>
+                In this configuration you are provided with redundant error free storage using CEPH technology
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/hardware.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>The Streaming Box</h3>
+                <p>
+                  Your buffer free streaming is provided by the robust combination of the SuperMicro MB and the versatile Intel i3 processor 
+                </p>
+                <p class="font-italic">
+                  Using integrated Intel UHD Graphics 630 chipset, the i3 processor provides the same transcoding ability of vastly pricer CPUs.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Supermicro 512L-200B 1U chassis</li>
+                  <li><i class="ri-check-double-line"></i> AsRock Rack W480D4U mATX Server Motherboard Intel LGA 1200</li>
+                  <li><i class="ri-check-double-line"></i> Intel Core i3-10100 Comet Lake Quad-Core 3.6 Ghz LGA 1200 65W</li>
+                  <li><i class="ri-check-double-line"></i> 32GB DDR4 2666 ECC RAM</li>
+                  <li><i class="ri-check-double-line"></i> Western Digial BLUE 1TB nvme SN550</li>
+                  <li><i class="ri-check-double-line"></i> 10GB Ethernet</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/streamer.png" alt="" class="img-fluid">
               </div>
             </div>
           </div>
