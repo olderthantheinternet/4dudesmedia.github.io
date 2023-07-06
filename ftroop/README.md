@@ -1,2 +1,0 @@
-# ftroop
-sample scout page
